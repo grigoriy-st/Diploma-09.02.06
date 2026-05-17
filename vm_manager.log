@@ -1,0 +1,51 @@
+2026-05-12 08:35:29,500 - INFO - Starting VM image creataion process
+2026-05-12 08:36:30,132 - INFO - Starting VM image creataion process
+2026-05-12 08:37:19,536 - INFO - Starting VM image creataion process
+2026-05-12 08:43:10,357 - INFO - Starting VM image creataion process
+2026-05-12 08:44:44,119 - INFO - Starting VM image creataion process
+2026-05-12 08:45:12,571 - INFO - Starting VM image creataion process
+2026-05-12 08:46:04,623 - INFO - Starting VM image creataion process
+2026-05-12 08:46:29,758 - INFO - Starting VM image creataion process
+2026-05-12 08:46:54,535 - INFO - Starting VM image creataion process
+2026-05-12 08:47:49,616 - INFO - Starting VM image creataion process
+2026-05-12 08:48:11,385 - INFO - Starting VM image creataion process
+2026-05-12 08:49:01,303 - INFO - Starting VM image creataion process
+2026-05-12 13:02:08,500 - INFO - Starting VM image creataion process
+2026-05-12 13:16:06,372 - INFO - Starting VM image creataion process
+2026-05-12 13:16:15,187 - INFO - <Command "/usr/bin/sudo virsh 'net-list --name'", pid 33763>: process started
+2026-05-12 13:16:34,062 - INFO - Starting VM image creataion process
+2026-05-12 13:16:42,030 - INFO - <Command "/usr/bin/sudo virsh 'net-list --name'", pid 33900>: process started
+2026-05-12 19:26:22,258 - INFO - Starting VM image creataion process
+2026-05-12 19:26:51,962 - INFO - Starting VM image creataion process
+2026-05-12 19:27:29,523 - INFO - Starting VM image creataion process
+2026-05-12 19:28:53,801 - INFO - Starting VM image creataion process
+2026-05-12 19:29:23,783 - INFO - Starting VM image creataion process
+2026-05-12 19:31:51,945 - INFO - Starting VM image creataion process
+2026-05-12 19:32:31,522 - INFO - Starting VM image creataion process
+2026-05-12 19:32:58,419 - INFO - Starting VM image creataion process
+2026-05-12 19:33:16,614 - INFO - Starting VM image creataion process
+2026-05-12 19:34:11,595 - INFO - Starting VM image creataion process
+2026-05-12 19:34:39,462 - INFO - Processing openwrt-Master-AP...
+2026-05-12 19:35:44,973 - INFO - Starting VM image creataion process
+2026-05-12 19:36:03,845 - INFO - Processing openwrt-Master-AP...
+2026-05-12 19:38:52,295 - INFO - Starting VM image creataion process
+2026-05-12 19:40:16,996 - INFO - Starting VM image creataion process
+2026-05-12 19:41:09,129 - INFO - Starting VM image creataion process
+2026-05-12 19:45:52,544 - INFO - Starting VM image creataion process
+2026-05-12 19:46:16,098 - INFO - Starting VM image creataion process
+2026-05-12 19:46:29,315 - INFO - Starting VM image creataion process
+2026-05-12 19:46:29,323 - INFO - Processing openwrt-Master-AP...
+2026-05-12 19:46:29,327 - INFO - === Summary ===
+2026-05-12 19:46:29,328 - INFO - Success: 0, Failed: 1
+2026-05-12 19:46:29,328 - WARNING - Failed VMs: openwrt-Master-AP
+2026-05-12 19:46:47,295 - INFO - Starting VM image creataion process
+2026-05-12 19:47:44,819 - INFO - Starting VM image creataion process
+2026-05-12 19:51:07,751 - INFO - Starting VM image creataion process
+2026-05-12 19:54:13,896 - INFO - Starting VM image creataion process
+2026-05-12 19:54:45,112 - INFO - Starting VM image creataion process
+2026-05-12 20:07:13,115 - INFO - Starting VM image creataion process
+2026-05-12 20:07:57,397 - INFO - Starting VM image creataion process
+2026-05-12 20:17:00,353 - INFO - Starting VM image creataion process
+2026-05-12 20:18:58,183 - INFO - Starting VM image creataion process
+2026-05-12 20:21:02,431 - INFO - Starting VM image creataion process
+2026-05-12 20:21:35,256 - INFO - Starting VM image creataion process

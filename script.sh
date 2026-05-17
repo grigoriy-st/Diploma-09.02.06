@@ -5,7 +5,8 @@ source vars.sh
 DIPLOMA_IMG_FOLDER="/mnt/Data_500GB/VMs/QEMU_KVM/Diploma-09.02.06"
 OPENWRT_IMG_FOLDER="/mnt/Data_500GB/VMs/ISOs/Network_vms/OpenWRT"
 
-main() {
+function main() {
+  create_owrt_img Master-AP
   for vm_name in "${!VMS_CONFIG[@]}"; do
     declare -n vm_config
   
@@ -13,7 +14,7 @@ main() {
   done
 }
 # $1 - vm name
-create_owrt_img() {
+function create_owrt_img() {
   local vm_name=$1
   qemu-img convert -f raw -O qcow2 \
     "$OPENWRT_IMG_FOLDER/openwrt-25.12.3-x86-64-generic-ext4-combined.img" \
@@ -24,15 +25,16 @@ create_owrt_img() {
   fi
 }
 
-create_owrt_vm() {
+function create_owrt_vm() {
   sudo virt-install \
     --name openwrt-ap1 \
     --ram 512 \
     --vcpus 1 \
     --disk path=$DIPLOMA_IMG_FOLDER/openwrt-vm.qcow2,format=qcow2 \
     --import \
-    --network network=default,model=virtio \
-    --graphics vnc,port="5920" \
+    --network network=br-wan,model=virtio \
+    --network network=br-lan,model=virtio \
+    --graphics vnc,port="5921" \
     --console pty,target_type=serial \
     --os-variant=linux2022
 
