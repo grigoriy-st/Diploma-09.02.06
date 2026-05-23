@@ -1,0 +1,25 @@
+@startnwdiag
+
+nwdiag {
+    internet [ shape = cloud];
+    internet -- vWLC_Master_AP1;
+
+    network br-lan {
+        address = "192.168.122.0/24";
+        vWLC_Master_AP1 [address = "192.168.122.1"];
+        vWLC_AP2 [address = ".2"];
+        vWLC_AP3 [address = ".2"];
+    }
+
+    network br-sw-ap1 {
+        switch;
+        vWLC_Master_AP1;
+    }
+    
+    network br-sw-srv {
+        switch;
+        TureNAS [ address = "192.168.30.1" ]
+    }
+
+}
+@endnwding
